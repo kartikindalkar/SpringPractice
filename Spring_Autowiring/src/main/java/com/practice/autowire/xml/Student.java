@@ -1,0 +1,30 @@
+package com.practice.autowire.xml;
+
+public class Student {
+	private Address address;
+	
+	
+
+	public Student(Address address) {
+		super();
+		this.address = address;
+		System.out.println("Contructor calling...");
+	}
+
+	public Address getAddress() {
+		return address;
+	}
+
+	public void setAddress(Address address) {
+		System.out.println("Setter Calling...");
+		this.address = address;
+	}
+
+	@Override
+	public String toString() {
+		return "Student [address=" + address + "]";
+	}
+	
+	
+
+}

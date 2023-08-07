@@ -1,0 +1,35 @@
+package com.practice.autowire.annot;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+//Three Type for adding Annotation
+//1.Propery,2.Setter,3.Constructor Injection we can add Annotation
+public class Student {
+	
+	//@Autowired//-->Property Injection
+	private Address address;
+	
+	@Autowired//Constructor 
+	public Student(Address address) {
+		super();
+		this.address = address;
+		System.out.println("Contructor calling...");
+	}
+
+	public Address getAddress() {
+		return address;
+	}
+	//@Autowired//Setter
+	public void setAddress(Address address) {
+		System.out.println("Setter Calling...");
+		this.address = address;
+	}
+
+	@Override
+	public String toString() {
+		return "Student [address=" + address + "]";
+	}
+	
+	
+
+}

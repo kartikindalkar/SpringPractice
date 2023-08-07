@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.practice.autowire.xml&apos; to &apos;Spring_Autowiring/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;Spring_Autowiring&apos;&#x0D;&#x0A;- Destination element: &apos;Spring_Autowiring/src/main/java&apos;&#x0D;&#x0A;- Original element: &apos;Spring_Autowiring/src/main/java/com.practice.autowire.xml&apos;" description="Copy package" destination="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.practice.autowire.xml" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1691220176707" version="1.0"/>
+</session>

@@ -1,0 +1,7 @@
+package com.practice.sterotypes;
+
+public class Snippet {
+	 Could not find class [java.util.list]
+		at org.springframework.beans.AbstractNestablePropertyAccessor.convertIfNecessary(AbstractNestablePropertyAccessor.java:595)
+}
+

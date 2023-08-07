@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:p="http://www.springframework.org/schema/beans/p"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean name="st1" class="com.practice.collection.Student">
+		<property name="name" value="Kartik" />
+		<property name="address">
+			<list>
+				<value>India</value>
+				<value>Uk</value>
+			</list>
+		</property>
+		
+		<property name="phno">
+			<set>
+				<value>123</value>
+				<value>456</value>
+			</set>
+		</property>
+		
+		<property name="course">
+			<map>
+				<entry key="Java" value="2 Month" />
+				<entry key="Python" value="1 Month" />
+			</map>		
+		</property>
+		
+		
+	
+	</bean>
+</beans>

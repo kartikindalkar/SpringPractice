@@ -1,0 +1,5 @@
+package com.practice.autowire.xml;
+
+public class Student {
+
+}
